@@ -18,4 +18,9 @@ public abstract class BasePage
     {
         driver.findElement(acceptCookiesButton).click();
     }
+
+    public void goBack()
+    {
+        driver.navigate().back();
+    }
 }
